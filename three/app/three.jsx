@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
-const ThreeScene = () => {
+const Three = () => {
   const mountRef = useRef(null);
 
   useEffect(() => {
@@ -51,4 +51,4 @@ const ThreeScene = () => {
   return <div ref={mountRef} style={{ width: '100%', height: '100vh' }} />;
 };
 
-export default ThreeScene;
+export default Three;
